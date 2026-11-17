@@ -15,10 +15,11 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleEventObserver
-import androidx.lifecycle.compose.LocalLifecycleOwner
+import androidx.compose.ui.platform.LocalLifecycleOwner
 import com.example.deskdashboard.data.media.NotificationMediaListener
 import com.example.deskdashboard.data.media.NotificationPermissionHelper
 import com.example.deskdashboard.ui.components.DigitalClock
+import com.example.deskdashboard.ui.components.MediaPlayerCard
 import com.example.deskdashboard.ui.components.MediaPlayerCard
 import com.example.deskdashboard.ui.components.StarryBackground
 import kotlinx.coroutines.delay
